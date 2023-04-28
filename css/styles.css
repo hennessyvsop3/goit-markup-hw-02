@@ -6,6 +6,7 @@
   --footer-text-color: #f4f4fd;
   --hover-color: #404bbf;
   --background-section-color: #2E2F42;
+  --background-sectionteam-color: #F4F4FD;
 }
 
 body {
@@ -145,7 +146,9 @@ body {
 }
 
 /* OUR TEAM */
-
+.ourteam{
+  background-color: var(--background-sectionteam-color);
+}
 /* FOOTER */
 .footer {
   background: var(--background-section-color);
@@ -195,3 +198,6 @@ body {
   gap: 24px;    
 } */
 
+.hide-title{
+  display: none;
+}
